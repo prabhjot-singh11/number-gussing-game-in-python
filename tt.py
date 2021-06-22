@@ -53,11 +53,11 @@ def com():
 def main():
     r=chose()
     print(r)
-    for i in range(players):
+    
      if r==1:
       play1()
       play2()
-      chose()
+     
      if r==2:
       play2()
       play1()
